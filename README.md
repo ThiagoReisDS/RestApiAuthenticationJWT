@@ -10,7 +10,7 @@
 
 <!--<img src="exemplo-image.png" alt="exemplo imagem">-->
 
-> API REST em .NET Core 5.0 utilizando autenticação com JWT.
+> API REST em .NET Core 5.0 utilizando autenticação com JWT com a biblioteca Microsoft.AspNetCore.Authentication.JwtBearer
 
 ### Ajustes e melhorias
 
