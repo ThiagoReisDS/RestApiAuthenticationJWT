@@ -44,9 +44,10 @@ namespace RestApiAuthenticationJwt.Business.Implementations
             user.RefreshToken = refreshToken;
             user.RefreshTokenExpiryTime = DateTime.Now.AddDays(_configuration.DaysToExpiry);
 
+            _repository.RefreshUserInfo(user);
+
             DateTime createDate = DateTime.Now;
             DateTime expirateDate = createDate.AddMinutes(_configuration.Minutes);
-
 
             return new TokenVO(true, 
                                expirateDate.ToString(DATE_FORMAT), 

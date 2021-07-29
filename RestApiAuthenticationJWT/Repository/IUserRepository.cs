@@ -7,6 +7,6 @@ namespace RestApiAuthenticationJwt.Repository
     {
         User ValidateCredentials(UserVO user);
 
-        User RefreshUserInfo(UserVO user);
+        User RefreshUserInfo(User user);
     }
 }

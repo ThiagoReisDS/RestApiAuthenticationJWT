@@ -13,9 +13,4 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="4.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Data\Converter\Implementations\" />
-  </ItemGroup>
-
 </Project>
