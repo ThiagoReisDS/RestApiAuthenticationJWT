@@ -18,4 +18,5 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Incluir Swagger (OpenAPI)
 - [x] Incluir HATEOAS
+- [x] Implementar um Extension Methods, encapsulando as chamadas aos métodos AddAuthentication, AddJwtBearer e AddAuthorization para deixar a classe Startup.cs mais limpa
 
